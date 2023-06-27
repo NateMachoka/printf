@@ -23,8 +23,7 @@ int _printf(const char *format, ...)
 	}
 	for (i = 0; format[i]; i++)
 	{
-		if (format[i] == '%' && (format[i + 1] == '%' || format[i + 1] =
-					 = '\0'))
+		if (format[i] == '%' && (format[i + 1] == '%' || format[i + 1] == '\0'))
 		{
 			write(1, &format[i], 1);
 			count++;

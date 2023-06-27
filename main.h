@@ -7,7 +7,7 @@
 #include <limits.h>
 
 /**
- * formats - defines a specifier and its corresponding function
+ * struct formats - defines a specifier and its corresponding function
  * @specifier: character specifier representantion
  *
  * @f: pointer to functions corresponding to specifier
